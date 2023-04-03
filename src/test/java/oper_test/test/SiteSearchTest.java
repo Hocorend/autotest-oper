@@ -34,5 +34,5 @@ public class SiteSearchTest {
 
         Assert.assertEquals(0,driver.findElements(By.xpath("//div[*[text()='Поиск по сайту']]")).size());
     }
-    
+
 }
