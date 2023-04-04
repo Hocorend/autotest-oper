@@ -12,18 +12,7 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
-public class SiteSearchTest {
-
-    private WebDriver driver;
-
-    @BeforeMethod(alwaysRun = true)
-    public void browserSetup(){
-        driver = DriverSingelton.getDriver();
-    }
-    @AfterMethod(alwaysRun = true)
-    public void browserClosed(){
-        DriverSingelton.closeDriver();
-    }
+public class SiteSearchTest extends CommonConditions{
 
     @Test
     @Description("Проверка на поиск по сайту с пустой строкой ввода")

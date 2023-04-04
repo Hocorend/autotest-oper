@@ -3,14 +3,15 @@
 <suite name="Failed suite [Command line suite]" verbose="0">
   <test thread-count="5" name="Command line test(failed)" verbose="0">
     <classes>
-      <class name="oper_test.test.SiteSearchTest">
+      <class name="oper_test.test.RedirectionLinksTest">
         <methods>
+          <include name="switchTelegramLink"/>
+          <include name="switchRutubeLink"/>
           <include name="browserClosed"/>
           <include name="browserSetup"/>
-          <include name="enterEmptyQuery"/>
-          <include name="getCountSearchResults"/>
+          <include name="switchVkontakteLink"/>
         </methods>
-      </class> <!-- oper_test.test.SiteSearchTest -->
+      </class> <!-- oper_test.test.RedirectionLinksTest -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->
