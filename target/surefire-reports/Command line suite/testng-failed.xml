@@ -8,6 +8,7 @@
           <include name="browserClosed"/>
           <include name="browserSetup"/>
           <include name="enterEmptyQuery"/>
+          <include name="getCountSearchResults"/>
         </methods>
       </class> <!-- oper_test.test.SiteSearchTest -->
     </classes>

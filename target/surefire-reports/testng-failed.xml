@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [oper_test.test.SiteSearchTest]" verbose="0">
+<suite name="Failed suite [Command line suite]" verbose="0">
   <test thread-count="5" name="Command line test(failed)" verbose="0">
     <classes>
       <class name="oper_test.test.SiteSearchTest">
@@ -8,8 +8,9 @@
           <include name="browserClosed"/>
           <include name="browserSetup"/>
           <include name="enterEmptyQuery"/>
+          <include name="getCountSearchResults"/>
         </methods>
       </class> <!-- oper_test.test.SiteSearchTest -->
     </classes>
   </test> <!-- Command line test(failed) -->
-</suite> <!-- Failed suite [oper_test.test.SiteSearchTest] -->
+</suite> <!-- Failed suite [Command line suite] -->

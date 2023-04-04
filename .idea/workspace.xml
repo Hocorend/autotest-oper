@@ -6,7 +6,23 @@
   <component name="ChangeListManager">
     <list default="true" id="aa284cc5-af39-47b7-b1eb-00f303d03974" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/oper_test/page/AbstractPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/oper_test/page/AbstractPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/oper_test/page/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/oper_test/page/MainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/oper_test/test/SiteSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/oper_test/test/SiteSearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-oper_test.test.SiteSearchTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-oper_test.test.SiteSearchTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +68,25 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SiteSearchTest.enterEmptyQuery">
+  <component name="RunManager" selected="TestNG.SiteAccessTest.requestSiteAvailability">
+    <configuration name="SiteAccessTest.requestSiteAvailability" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="autotest-oper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oper_test.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="oper_test.test" />
+      <option name="MAIN_CLASS_NAME" value="oper_test.test.SiteAccessTest" />
+      <option name="METHOD_NAME" value="requestSiteAvailability" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SiteSearchTest.enterEmptyQuery" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="autotest-oper" />
       <extension name="coverage">
@@ -131,6 +165,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SiteAccessTest.requestSiteAvailability" />
         <item itemvalue="TestNG.SiteSearchTest.enterEmptyQuery" />
         <item itemvalue="TestNG.WebDriverSeleniumHQTest.commonSearchTermResultNotEmpty" />
         <item itemvalue="TestNG.WebDriverSeleniumHQTest" />
