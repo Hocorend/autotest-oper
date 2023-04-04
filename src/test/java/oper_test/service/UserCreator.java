@@ -4,15 +4,15 @@ import oper_test.model.User;
 
 public class UserCreator {
 
-    public static final String USER_NAME = System.getProperty("UserLogin");
-    public static final String USER_PASSWORD = System.getProperty("UserPassword");
+    public static final String USER_NAME = "testdata.user.name";
+    public static final String USER_PASSWORD = "testdata.user.password";
 
     public static User createWithEmptyUsername(){
-        return new User("",USER_PASSWORD);
+        return new User("",TestDataReader.getTestData(USER_PASSWORD));
     }
 
     public static User createWithEmptyPassword(){
-        return new User(USER_NAME,"");
+        return new User(TestDataReader.getTestData(USER_NAME),"");
     }
 
     public static User createEmptyUser(){

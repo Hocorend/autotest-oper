@@ -146,6 +146,28 @@
           <div class="suite-Command_line_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">oper_test.test.SiteSearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterEmptyQuery">
+                  </a> <!-- enterEmptyQuery -->
+                  <span class="method-name">enterEmptyQuery</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCountSearchResults">
+                  </a> <!-- getCountSearchResults -->
+                  <span class="method-name">getCountSearchResults</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">oper_test.test.RedirectionLinksTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -187,28 +209,6 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Command_line_suite-class-passed -->
-          <div class="suite-Command_line_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">oper_test.test.SiteSearchTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="enterEmptyQuery">
-                  </a> <!-- enterEmptyQuery -->
-                  <span class="method-name">enterEmptyQuery</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="getCountSearchResults">
-                  </a> <!-- getCountSearchResults -->
-                  <span class="method-name">getCountSearchResults</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-passed -->
         </div> <!-- panel Command_line_suite -->
         <div panel-name="test-xml-Command_line_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -220,6 +220,7 @@
 &lt;suite name=&quot;Command line suite&quot; verbose=&quot;0&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Command line test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;oper_test.service.TestDataReader&quot;/&gt;
       &lt;class name=&quot;oper_test.test.RedirectionLinksTest&quot;/&gt;
       &lt;class name=&quot;oper_test.test.SiteAccessTest&quot;/&gt;
       &lt;class name=&quot;oper_test.test.SiteSearchTest&quot;/&gt;
@@ -236,7 +237,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Command line test (3 classes)</span>
+                <span class="test-name">Command line test (4 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -264,34 +265,34 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'switchVkontakteLink')
+data.setCell(0, 1, 'switchTelegramLink')
 data.setCell(0, 2, 'oper_test.test.RedirectionLinksTest')
-data.setCell(0, 3, 48993);
+data.setCell(0, 3, 33415);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'getCountSearchResults')
-data.setCell(1, 2, 'oper_test.test.SiteSearchTest')
-data.setCell(1, 3, 47392);
+data.setCell(1, 1, 'switchRutubeLink')
+data.setCell(1, 2, 'oper_test.test.RedirectionLinksTest')
+data.setCell(1, 3, 28524);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'switchRutubeLink')
-data.setCell(2, 2, 'oper_test.test.RedirectionLinksTest')
-data.setCell(2, 3, 32470);
+data.setCell(2, 1, 'enterEmptyQuery')
+data.setCell(2, 2, 'oper_test.test.SiteSearchTest')
+data.setCell(2, 3, 27766);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'switchTelegramLink')
+data.setCell(3, 1, 'switchVkontakteLink')
 data.setCell(3, 2, 'oper_test.test.RedirectionLinksTest')
-data.setCell(3, 3, 23039);
+data.setCell(3, 3, 10796);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'enterEmptyQuery')
+data.setCell(4, 1, 'getCountSearchResults')
 data.setCell(4, 2, 'oper_test.test.SiteSearchTest')
-data.setCell(4, 3, 6608);
+data.setCell(4, 3, 4764);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'requestSiteAvailability')
 data.setCell(5, 2, 'oper_test.test.SiteAccessTest')
-data.setCell(5, 3, 305);
+data.setCell(5, 3, 410);
 window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Command_line_suite">
               </div> <!-- times-div-Command_line_suite -->
             </div> <!-- times-div -->
@@ -324,69 +325,69 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">switchRutubeLink</span>
-                <span class="method-start">2243 ms</span>
+                <span class="method-start">3034 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClosed</span>
-                <span class="method-start">34715 ms</span>
+                <span class="method-start">31561 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">browserSetup</span>
-                <span class="method-start">34947 ms</span>
+                <span class="method-start">31853 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">switchTelegramLink</span>
-                <span class="method-start">35850 ms</span>
+                <span class="method-start">32743 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClosed</span>
-                <span class="method-start">58890 ms</span>
+                <span class="method-start">66158 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">browserSetup</span>
-                <span class="method-start">59070 ms</span>
+                <span class="method-start">66334 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">switchVkontakteLink</span>
-                <span class="method-start">59940 ms</span>
+                <span class="method-start">67198 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClosed</span>
-                <span class="method-start">108934 ms</span>
+                <span class="method-start">77994 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">oper_test.test.SiteAccessTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">requestSiteAvailability</span>
-                <span class="method-start">109175 ms</span>
+                <span class="method-start">78237 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">oper_test.test.SiteSearchTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">browserSetup</span>
-                <span class="method-start">109481 ms</span>
+                <span class="method-start">78648 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">enterEmptyQuery</span>
-                <span class="method-start">110392 ms</span>
+                <span class="method-start">79538 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClosed</span>
-                <span class="method-start">117001 ms</span>
+                <span class="method-start">107305 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">browserSetup</span>
-                <span class="method-start">117301 ms</span>
+                <span class="method-start">107547 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">getCountSearchResults</span>
-                <span class="method-start">118164 ms</span>
+                <span class="method-start">108410 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClosed</span>
-                <span class="method-start">165556 ms</span>
+                <span class="method-start">113175 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
