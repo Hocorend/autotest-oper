@@ -1,3 +1,4 @@
 oper_test\test\CommonConditions.class
 oper_test\test\RedirectionLinksTest.class
 oper_test\service\TestDataReader.class
+oper_test\util\WindowSwitcherUtil.class

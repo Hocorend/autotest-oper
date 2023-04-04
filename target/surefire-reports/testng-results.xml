@@ -2,76 +2,76 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-04T19:40:56 YEKT" name="Command line suite" finished-at="2023-04-04T19:42:49 YEKT" duration-ms="113511">
+  <suite started-at="2023-04-05T00:52:14 YEKT" name="Command line suite" finished-at="2023-04-05T00:54:25 YEKT" duration-ms="131119">
     <groups>
     </groups>
-    <test started-at="2023-04-04T19:40:56 YEKT" name="Command line test" finished-at="2023-04-04T19:42:49 YEKT" duration-ms="113511">
+    <test started-at="2023-04-05T00:52:14 YEKT" name="Command line test" finished-at="2023-04-05T00:54:25 YEKT" duration-ms="131119">
       <class name="oper_test.test.SiteSearchTest">
-        <test-method is-config="true" signature="browserSetup()[pri:0, instance:oper_test.test.SiteSearchTest@5ef60048]" started-at="2023-04-04T19:42:14 YEKT" name="browserSetup" finished-at="2023-04-04T19:42:15 YEKT" duration-ms="890" status="PASS">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:oper_test.test.SiteSearchTest@5ef60048]" started-at="2023-04-05T00:53:44 YEKT" name="browserSetup" finished-at="2023-04-05T00:53:45 YEKT" duration-ms="861" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method signature="enterEmptyQuery()[pri:0, instance:oper_test.test.SiteSearchTest@5ef60048]" started-at="2023-04-04T19:42:15 YEKT" name="enterEmptyQuery" finished-at="2023-04-04T19:42:43 YEKT" duration-ms="27766" status="PASS">
+        <test-method signature="enterEmptyQuery()[pri:0, instance:oper_test.test.SiteSearchTest@5ef60048]" started-at="2023-04-05T00:53:45 YEKT" name="enterEmptyQuery" finished-at="2023-04-05T00:53:52 YEKT" duration-ms="7182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterEmptyQuery -->
-        <test-method is-config="true" signature="browserClosed()[pri:0, instance:oper_test.test.SiteSearchTest@5ef60048]" started-at="2023-04-04T19:42:43 YEKT" name="browserClosed" finished-at="2023-04-04T19:42:43 YEKT" duration-ms="242" status="PASS">
+        <test-method is-config="true" signature="browserClosed()[pri:0, instance:oper_test.test.SiteSearchTest@5ef60048]" started-at="2023-04-05T00:53:52 YEKT" name="browserClosed" finished-at="2023-04-05T00:53:52 YEKT" duration-ms="301" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClosed -->
-        <test-method is-config="true" signature="browserSetup()[pri:0, instance:oper_test.test.SiteSearchTest@5ef60048]" started-at="2023-04-04T19:42:43 YEKT" name="browserSetup" finished-at="2023-04-04T19:42:44 YEKT" duration-ms="863" status="PASS">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:oper_test.test.SiteSearchTest@5ef60048]" started-at="2023-04-05T00:53:52 YEKT" name="browserSetup" finished-at="2023-04-05T00:53:53 YEKT" duration-ms="881" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method signature="getCountSearchResults()[pri:0, instance:oper_test.test.SiteSearchTest@5ef60048]" started-at="2023-04-04T19:42:44 YEKT" name="getCountSearchResults" finished-at="2023-04-04T19:42:49 YEKT" duration-ms="4764" status="PASS">
+        <test-method signature="getCountSearchResults()[pri:0, instance:oper_test.test.SiteSearchTest@5ef60048]" started-at="2023-04-05T00:53:53 YEKT" name="getCountSearchResults" finished-at="2023-04-05T00:54:24 YEKT" duration-ms="31161" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getCountSearchResults -->
-        <test-method is-config="true" signature="browserClosed()[pri:0, instance:oper_test.test.SiteSearchTest@5ef60048]" started-at="2023-04-04T19:42:49 YEKT" name="browserClosed" finished-at="2023-04-04T19:42:49 YEKT" duration-ms="297" status="PASS">
+        <test-method is-config="true" signature="browserClosed()[pri:0, instance:oper_test.test.SiteSearchTest@5ef60048]" started-at="2023-04-05T00:54:24 YEKT" name="browserClosed" finished-at="2023-04-05T00:54:25 YEKT" duration-ms="184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClosed -->
       </class> <!-- oper_test.test.SiteSearchTest -->
       <class name="oper_test.test.SiteAccessTest">
-        <test-method signature="requestSiteAvailability()[pri:0, instance:oper_test.test.SiteAccessTest@5af97850]" started-at="2023-04-04T19:42:14 YEKT" name="requestSiteAvailability" finished-at="2023-04-04T19:42:14 YEKT" duration-ms="410" status="PASS">
+        <test-method signature="requestSiteAvailability()[pri:0, instance:oper_test.test.SiteAccessTest@5af97850]" started-at="2023-04-05T00:53:44 YEKT" name="requestSiteAvailability" finished-at="2023-04-05T00:53:44 YEKT" duration-ms="275" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- requestSiteAvailability -->
       </class> <!-- oper_test.test.SiteAccessTest -->
       <class name="oper_test.test.RedirectionLinksTest">
-        <test-method is-config="true" signature="browserSetup()[pri:0, instance:oper_test.test.RedirectionLinksTest@29f69090]" started-at="2023-04-04T19:40:56 YEKT" name="browserSetup" finished-at="2023-04-04T19:40:59 YEKT" duration-ms="3033" status="PASS">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:oper_test.test.RedirectionLinksTest@29f69090]" started-at="2023-04-05T00:52:14 YEKT" name="browserSetup" finished-at="2023-04-05T00:52:16 YEKT" duration-ms="2283" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method signature="switchRutubeLink()[pri:0, instance:oper_test.test.RedirectionLinksTest@29f69090]" started-at="2023-04-04T19:40:59 YEKT" name="switchRutubeLink" finished-at="2023-04-04T19:41:27 YEKT" duration-ms="28524" status="PASS">
+        <test-method signature="switchRutubeLink()[pri:0, instance:oper_test.test.RedirectionLinksTest@29f69090]" started-at="2023-04-05T00:52:16 YEKT" name="switchRutubeLink" finished-at="2023-04-05T00:52:23 YEKT" duration-ms="7211" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- switchRutubeLink -->
-        <test-method is-config="true" signature="browserClosed()[pri:0, instance:oper_test.test.RedirectionLinksTest@29f69090]" started-at="2023-04-04T19:41:27 YEKT" name="browserClosed" finished-at="2023-04-04T19:41:28 YEKT" duration-ms="291" status="PASS">
+        <test-method is-config="true" signature="browserClosed()[pri:0, instance:oper_test.test.RedirectionLinksTest@29f69090]" started-at="2023-04-05T00:52:23 YEKT" name="browserClosed" finished-at="2023-04-05T00:52:23 YEKT" duration-ms="309" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClosed -->
-        <test-method is-config="true" signature="browserSetup()[pri:0, instance:oper_test.test.RedirectionLinksTest@29f69090]" started-at="2023-04-04T19:41:28 YEKT" name="browserSetup" finished-at="2023-04-04T19:41:28 YEKT" duration-ms="890" status="PASS">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:oper_test.test.RedirectionLinksTest@29f69090]" started-at="2023-04-05T00:52:23 YEKT" name="browserSetup" finished-at="2023-04-05T00:52:24 YEKT" duration-ms="894" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method signature="switchTelegramLink()[pri:0, instance:oper_test.test.RedirectionLinksTest@29f69090]" started-at="2023-04-04T19:41:28 YEKT" name="switchTelegramLink" finished-at="2023-04-04T19:42:02 YEKT" duration-ms="33415" status="PASS">
+        <test-method signature="switchTelegramLink()[pri:0, instance:oper_test.test.RedirectionLinksTest@29f69090]" started-at="2023-04-05T00:52:24 YEKT" name="switchTelegramLink" finished-at="2023-04-05T00:53:09 YEKT" duration-ms="44311" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- switchTelegramLink -->
-        <test-method is-config="true" signature="browserClosed()[pri:0, instance:oper_test.test.RedirectionLinksTest@29f69090]" started-at="2023-04-04T19:42:02 YEKT" name="browserClosed" finished-at="2023-04-04T19:42:02 YEKT" duration-ms="175" status="PASS">
+        <test-method is-config="true" signature="browserClosed()[pri:0, instance:oper_test.test.RedirectionLinksTest@29f69090]" started-at="2023-04-05T00:53:09 YEKT" name="browserClosed" finished-at="2023-04-05T00:53:09 YEKT" duration-ms="191" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClosed -->
-        <test-method is-config="true" signature="browserSetup()[pri:0, instance:oper_test.test.RedirectionLinksTest@29f69090]" started-at="2023-04-04T19:42:02 YEKT" name="browserSetup" finished-at="2023-04-04T19:42:03 YEKT" duration-ms="864" status="PASS">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:oper_test.test.RedirectionLinksTest@29f69090]" started-at="2023-04-05T00:53:09 YEKT" name="browserSetup" finished-at="2023-04-05T00:53:10 YEKT" duration-ms="870" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method signature="switchVkontakteLink()[pri:0, instance:oper_test.test.RedirectionLinksTest@29f69090]" started-at="2023-04-04T19:42:03 YEKT" name="switchVkontakteLink" finished-at="2023-04-04T19:42:14 YEKT" duration-ms="10796" status="PASS">
+        <test-method signature="switchVkontakteLink()[pri:0, instance:oper_test.test.RedirectionLinksTest@29f69090]" started-at="2023-04-05T00:53:10 YEKT" name="switchVkontakteLink" finished-at="2023-04-05T00:53:44 YEKT" duration-ms="33912" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- switchVkontakteLink -->
-        <test-method is-config="true" signature="browserClosed()[pri:0, instance:oper_test.test.RedirectionLinksTest@29f69090]" started-at="2023-04-04T19:42:14 YEKT" name="browserClosed" finished-at="2023-04-04T19:42:14 YEKT" duration-ms="241" status="PASS">
+        <test-method is-config="true" signature="browserClosed()[pri:0, instance:oper_test.test.RedirectionLinksTest@29f69090]" started-at="2023-04-05T00:53:44 YEKT" name="browserClosed" finished-at="2023-04-05T00:53:44 YEKT" duration-ms="240" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClosed -->

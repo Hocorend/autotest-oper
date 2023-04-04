@@ -6,11 +6,15 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
+
+import static oper_test.util.WindowSwitcherUtil.switchWindow;
+import static org.openqa.selenium.support.ui.ExpectedConditions.numberOfWindowsToBe;
 
 public class MainPage extends AbstractPage {
     private static final String HOMEPAGE_URL = "https://oper.ru";
@@ -38,21 +42,20 @@ public class MainPage extends AbstractPage {
         return searchResults;
     }
 
-    public void goToTelegram() throws InterruptedException {
+    public void goToTelegram(){
         telegramButton.click();
-        ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
-        driver.switchTo().window(tabs.get(1));
+        switchWindow(driver);
     }
 
     public void goToVkontakte(){
         vkontakteButton.click();
-        ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
-        driver.switchTo().window(tabs.get(1));
+        switchWindow(driver);
     }
 
     public void goToRutube(){
         rutubeButton.click();
-        ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
-        driver.switchTo().window(tabs.get(1));
+        switchWindow(driver);
     }
+
+
 }

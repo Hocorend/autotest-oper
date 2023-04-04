@@ -5,10 +5,10 @@
     <classes>
       <class name="oper_test.test.RedirectionLinksTest">
         <methods>
+          <include name="browserSetup"/>
           <include name="switchTelegramLink"/>
           <include name="switchRutubeLink"/>
           <include name="browserClosed"/>
-          <include name="browserSetup"/>
           <include name="switchVkontakteLink"/>
         </methods>
       </class> <!-- oper_test.test.RedirectionLinksTest -->
