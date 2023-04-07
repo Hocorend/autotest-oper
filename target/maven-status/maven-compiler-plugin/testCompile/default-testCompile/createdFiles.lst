@@ -1,4 +1,13 @@
+oper_test\model\User.class
+oper_test\test\SiteSearchTest.class
 oper_test\test\CommonConditions.class
 oper_test\test\RedirectionLinksTest.class
+oper_test\page\AbstractPage.class
+oper_test\service\UserCreator.class
+oper_test\test\SiteAccessTest.class
+oper_test\driver\DriverSingelton.class
+oper_test\util\TestListener.class
+oper_test\test\UserAccessTests.class
 oper_test\service\TestDataReader.class
 oper_test\util\WindowSwitcherUtil.class
+oper_test\page\MainPage.class

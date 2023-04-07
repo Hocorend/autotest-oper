@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="TestSuite" time="124.053" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="TestSuite" time="123.292" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="17.0.1+12-LTS-39"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin"/>
-    <property name="browser" value="chrome"/>
+    <property name="browser" value="edge"/>
     <property name="maven.multiModuleProjectDirectory" value="C:\JavaProject\autotest-oper"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
@@ -44,7 +44,7 @@
     <property name="java.class.path" value="C:\JavaTool\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dbrowser=chrome"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -Dbrowser=edge"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-17.0.1"/>
     <property name="user.language" value="ru"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -62,10 +62,10 @@
     <property name="sun.stdout.encoding" value="cp866"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="oper_test.test.RedirectionLinksTest" name="switchRutubeLink" time="7.213"/>
-  <testcase classname="oper_test.test.RedirectionLinksTest" name="switchTelegramLink" time="44.31"/>
-  <testcase classname="oper_test.test.RedirectionLinksTest" name="switchVkontakteLink" time="33.912"/>
-  <testcase classname="oper_test.test.SiteAccessTest" name="requestSiteAvailability" time="0.274"/>
-  <testcase classname="oper_test.test.SiteSearchTest" name="enterEmptyQuery" time="7.183"/>
-  <testcase classname="oper_test.test.SiteSearchTest" name="getCountSearchResults" time="31.161"/>
+  <testcase classname="oper_test.test.RedirectionLinksTest" name="switchRutubeLink" time="46.547"/>
+  <testcase classname="oper_test.test.RedirectionLinksTest" name="switchTelegramLink" time="31.389"/>
+  <testcase classname="oper_test.test.RedirectionLinksTest" name="switchVkontakteLink" time="45.005"/>
+  <testcase classname="oper_test.test.SiteAccessTest" name="requestSiteAvailability" time="0.351"/>
+  <testcase classname="oper_test.test.SiteSearchTest" name="enterEmptyQuery" time="0"/>
+  <testcase classname="oper_test.test.SiteSearchTest" name="getCountSearchResults" time="0"/>
 </testsuite>

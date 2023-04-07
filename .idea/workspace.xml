@@ -6,7 +6,52 @@
   <component name="ChangeListManager">
     <list default="true" id="aa284cc5-af39-47b7-b1eb-00f303d03974" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/oper_test/page/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/oper_test/page/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/oper_test/test/CommonConditions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/oper_test/test/CommonConditions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/oper_test/test/RedirectionLinksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/oper_test/test/RedirectionLinksTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/oper_test/test/SiteSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/oper_test/test/SiteSearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/oper_test/test/UserAccessTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/oper_test/test/UserAccessTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/oper_test/util/WindowSwitcherUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/oper_test/util/WindowSwitcherUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-oper_test.test.SiteSearchTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-google_search_test.test.WebDriverSeleniumHQTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-oper_test.test.RedirectionLinksTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-oper_test.test.RedirectionLinksTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-oper_test.test.SiteAccessTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-oper_test.test.SiteAccessTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-oper_test.test.SiteContactLinksTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-oper_test.test.SiteSearchTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-oper_test.test.SiteSearchTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/oper_test.test.SiteSearchTest/Command line test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/oper_test.test.SiteSearchTest/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/oper_test.test.SiteSearchTest/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/oper_test.test.SiteSearchTest/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/oper_test.test.SiteSearchTest/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/oper_test.test.SiteSearchTest/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/oper_test.test.SiteSearchTest/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/oper_test.test.SiteSearchTest/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/oper_test.test.SiteSearchTest/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/oper_test.test.SiteSearchTest/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/oper_test.test.SiteSearchTest/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/oper_test.test.SiteSearchTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/oper_test.test.SiteSearchTest/Command line test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/oper_test.test.SiteSearchTest/Command line test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/oper_test.test.SiteSearchTest/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/oper_test/page/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/oper_test/page/MainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/oper_test/test/CommonConditions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/oper_test/test/CommonConditions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/oper_test/test/RedirectionLinksTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/oper_test/test/RedirectionLinksTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/oper_test/test/SiteSearchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/oper_test/test/SiteSearchTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/oper_test/test/UserAccessTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/oper_test/test/UserAccessTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/oper_test/util/WindowSwitcherUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/oper_test/util/WindowSwitcherUtil.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

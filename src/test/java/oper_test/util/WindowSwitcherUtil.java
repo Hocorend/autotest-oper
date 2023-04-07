@@ -1,5 +1,6 @@
 package oper_test.util;
 
+import jdk.jfr.Description;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -13,6 +14,7 @@ import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfAllE
 
 public class WindowSwitcherUtil {
 
+    @Description("Метод переключчающий на новую вкладку открытую по гиперссылке")
     public static void switchWindow(WebDriver driver)  {
         String originalWindow = driver.getWindowHandle();
 
