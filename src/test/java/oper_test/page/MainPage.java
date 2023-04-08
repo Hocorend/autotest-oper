@@ -57,5 +57,74 @@ public class MainPage extends AbstractPage {
         switchWindow(driver);
     }
 
+    public void goToDzen(){
+        dzenButton.click();
+        logger.info("Transition to the dzen website");
+        switchWindow(driver);
+    }
+
+    public void goToApple(){
+        appleButton.click();
+        logger.info("Transition to the Apple website");
+        switchWindow(driver);
+    }
+
+    public void goToWink(){
+        winkButton.click();
+        logger.info("Transition to the Wink website");
+        switchWindow(driver);
+    }
+
+    public void goToAudioverison(){
+        audioversionButton.click();
+        logger.info("Transition to the pc.st website");
+        switchWindow(driver);
+    }
+
+    public void goToSponsr(){
+        sponsrButton.click();
+        logger.info("Transition to the Sponsr website");
+        switchWindow(driver);
+    }
+
+    public void goToOpershopHeader(){
+        opershopHeaderButton.click();
+        logger.info("Transition to the Opershop website");
+        switchWindow(driver);
+    }
+
+    public void goToOpershopLeftBar(){
+        opershopLeftbarButton.click();
+        logger.info("Transition to the Opershop website");
+        switchWindow(driver);
+    }
+
+    public void goToTranslationsHeader(){
+        translationsHeaderButton.click();
+        logger.info("Opens ./trans/");
+        switchWindow(driver);
+    }
+
+    public void goToVideoHeader(){
+        videoHeaderButton.click();
+        logger.info("Opens ./video/");
+        switchWindow(driver);
+    }
+
+    public void goToPicturesHeader(){
+        picturesHeaderButton.click();
+        logger.info("Opens ./gallery/");
+        switchWindow(driver);
+    }
+
+    public void goToNews(){
+        newsHeaderButton.click();
+        logger.info("Opens main page");
+        switchWindow(driver);
+    }
+
+
+
+
 
 }
