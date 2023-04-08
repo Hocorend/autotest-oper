@@ -1,5 +1,4 @@
 # autotest-oper
-Practice in writing autotests using Selenium, TestNG, Page Object
 
 Practice in writing autotests using Selenium, TestNG, Page Object
 
