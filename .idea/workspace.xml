@@ -220,10 +220,10 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Maven.autotest-oper" />
+      <item itemvalue="TestNG.WebDriverSeleniumHQTest" />
       <item itemvalue="TestNG.SiteAccessTest" />
       <item itemvalue="TestNG.SiteAccessTest.requestSiteAvailability" />
       <item itemvalue="TestNG.SiteSearchTest.enterEmptyQuery" />
-      <item itemvalue="TestNG.WebDriverSeleniumHQTest" />
       <item itemvalue="TestNG.WebDriverSeleniumHQTest.commonSearchTermResultNotEmpty" />
     </list>
     <recent_temporary>
