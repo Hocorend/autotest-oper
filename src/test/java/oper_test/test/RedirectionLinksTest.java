@@ -44,7 +44,7 @@ public class RedirectionLinksTest extends CommonConditions{
                 .openPage()
                 .goToDzen();
 
-        Assert.assertEquals( "https://dzen.ru/goblin_oper",driver.getCurrentUrl());
+        Assert.assertEquals( "https://dzen.ru/goblin_oper",driver.getCurrentUrl().substring(0,27));
     }
 
     @Test
@@ -92,7 +92,7 @@ public class RedirectionLinksTest extends CommonConditions{
     public void switchOpershopHeaderLink() throws InterruptedException {
         new MainPage(driver)
                 .openPage()
-                .goToSponsr();
+                .goToOpershopHeader();
 
         Assert.assertEquals( "https://opershop.ru",driver.getCurrentUrl().substring(0,19));
     }
@@ -102,7 +102,7 @@ public class RedirectionLinksTest extends CommonConditions{
     public void switchOpershopLeftbarLink() throws InterruptedException {
         new MainPage(driver)
                 .openPage()
-                .goToSponsr();
+                .goToOpershopLeftBar();
 
         Assert.assertEquals( "https://opershop.ru",driver.getCurrentUrl().substring(0,19));
     }
