@@ -1,5 +1,6 @@
 package oper_test.page;
 
+import oper_test.model.User;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
@@ -10,7 +11,7 @@ import java.util.List;
 
 import static oper_test.util.WindowSwitcherUtil.switchWindow;
 
-public class MainPage extends AbstractPage {
+public class MainPage extends AbstractPage{
     private static final String HOMEPAGE_URL = "https://oper.ru";
     private final Logger logger = LogManager.getRootLogger();
     @Override
@@ -33,11 +34,35 @@ public class MainPage extends AbstractPage {
         return this;
     }
 
-    public List getSearchResult(){
-        List<WebElement> searchResults = driver.findElements(By.xpath("//*[text()[contains(.,'"+searchInput.getText()+"')]]"));
+    public List<WebElement> getSearchResult(String condition){
+        List<WebElement> searchResults = driver.findElements(By.xpath("//*[text()[contains(.,'"+condition+"')]]/../a[2]"));
 
         return searchResults;
     }
+
+    public MainPage openNumberSearchResult(int number, String searchString){
+        getSearchResult(searchString).get(number).click();
+
+        return this;
+    }
+
+    public MainPage sendTheComment(User user,String comment){
+        driver.findElement(By.xpath("//input[@name='login']")).sendKeys(user.getLogin());
+        driver.findElement(By.xpath("//input[@name='pwd']")).sendKeys(user.getPassword());
+        driver.findElement(By.xpath("//textarea[@name='body']")).sendKeys(comment);
+
+        driver.findElement(By.xpath("//input[@value='Отправить']")).submit();
+
+        return this;
+    }
+
+    public String getResultCommentWrongUser(){
+        return driver.findElement(By.xpath("//font[text()='Неверное имя или пароль']")).getText();
+    }
+
+
+
+
 
     public void goToTelegram(){
         telegramButton.click();

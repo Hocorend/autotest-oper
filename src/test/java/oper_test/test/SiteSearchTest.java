@@ -28,7 +28,7 @@ public class SiteSearchTest extends CommonConditions{
         List searchResult = new MainPage(driver)
                 .openPage()
                 .searchByCondition("Сопрано S01E10")
-                .getSearchResult();
+                .getSearchResult("Сопрано S01E10");
 
         Assert.assertTrue(searchResult.size()>0);
     }
