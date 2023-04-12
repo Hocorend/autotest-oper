@@ -60,9 +60,10 @@ public class MainPage extends AbstractPage{
         return driver.findElement(By.xpath("//font[text()='Неверное имя или пароль']")).getText();
     }
 
-
-
-
+    public TranslationPage openTranslationPage(){
+        translationsHeaderButton.click();
+        return new TranslationPage(driver);
+    }
 
     public void goToTelegram(){
         telegramButton.click();
