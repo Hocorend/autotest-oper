@@ -47,4 +47,30 @@ public class CommentAccessTest extends CommonConditions{
 
         Assert.assertEquals("Неверное имя или пароль", result);
     }
+
+    @Test
+    @Description("Тест на проверку отправки комментария с неправильным логином от аккаунта")
+    public void sendCommentWithWrongUsername() {
+        String result = new MainPage(driver)
+                .openPage()
+                .searchByCondition("Сопрано S01E10")
+                .openNumberSearchResult(0, "Сопрано S01E10")
+                .sendTheComment(UserCreator.createWithWrongUsername(), "Comment123")
+                .getResultCommentWrongUser();
+
+        Assert.assertEquals("Неверное имя или пароль", result);
+    }
+
+    @Test
+    @Description("Тест на проверку отправки комментария с неправильным паролем от аккаунта")
+    public void sendCommentWithWrongPassword() {
+        String result = new MainPage(driver)
+                .openPage()
+                .searchByCondition("Сопрано S01E10")
+                .openNumberSearchResult(0, "Сопрано S01E10")
+                .sendTheComment(UserCreator.createWithWrongPassword(), "Comment123")
+                .getResultCommentWrongUser();
+
+        Assert.assertEquals("Неверное имя или пароль", result);
+    }
 }
